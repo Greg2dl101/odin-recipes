@@ -1,13 +1,42 @@
 body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
+    width: 500px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 25px auto;
     background-color:silver;
 }
 
-img {
-    width: 400px;
-    height: auto;
+h1 {
+    text-align: center;
 }
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.card-content {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+
+}
+
+.index-list {
+    padding: 10px 10px;
+    text-align: center;
+}
+
